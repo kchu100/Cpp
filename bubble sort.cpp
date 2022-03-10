@@ -1,5 +1,4 @@
-template<class T>
-void BubbleSort(T a[], int count)
+void BubbleSort(int a[], int count)
 {
 	int temp; //dummy variable
 	
