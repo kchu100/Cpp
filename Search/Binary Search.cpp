@@ -9,10 +9,3 @@ int BinarySearch(int A[], int first, int last, int value)
 	else
 		return BinarySearch(A, mid + 1, last, value);
 }
-
-//STL -- get the index of the desired value in a sorted vector
-int lowerBound(vector<int> n, int m)
-{
-    vector<int>::iterator temp = lower_bound(n.begin(), n.end(), m);
-    return temp - n.begin();
-}
