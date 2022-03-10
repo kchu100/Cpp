@@ -116,7 +116,7 @@ int queensAttack(int n, int k, int r_q, int c_q, vector<vector<int>> obstacles)
         right = temp - temp1;
     }
     
-    //an onstalce found at the furthest square above queen
+    //an obstacle found at the furthest square above queen
     if(top == n)
         top = 1;
     //no obstacle in the same column
