@@ -11,7 +11,4 @@ void BubbleSort(T a[], int count)
 				a[y] = a[y + 1];
 				a[y + 1] = temp;
 			}
-	
-	cout << "\nSorted Array using bubble sort" << endl;
-	display(a, count);
 }
