@@ -16,20 +16,6 @@ using namespace std;
 //calculate the distance between queen and obstacle
 //subtact both values to get the total number of squares queen can NOT attack
 //subtact the total squares queen CAN attack to the total squares queen can NOT attack
-int totalattacks(int n, int rq, int cq)
-{
-    //horizontal/vertical movement
-    int total = (n - 1) * 2; 
-    //diagonal movement
-    int top_left = min(n - rq, cq - 1);
-    int bottom_left = min(rq, cq) - 1;
-    int top_right = n - max(cq, rq);
-    int bottom_right = min(rq - 1, n - cq);
-        
-    total = total + top_left + top_right + bottom_left + bottom_right;
-    return total;
-}
-
 int queensAttack(int n, int k, int r_q, int c_q, vector<vector<int>> obstacles) 
 {
     int total = totalattacks(n, r_q, c_q), sum = 0;
@@ -159,16 +145,3 @@ int queensAttack(int n, int k, int r_q, int c_q, vector<vector<int>> obstacles)
     sum = left + right + bottom + top + diagonalsum;
     return total - sum;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
