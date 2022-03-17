@@ -9,7 +9,6 @@ in the logical division of the different codes.
 
   Class is referred to as the designing of the user-defined data type. 
   It reflects the different entities, attributes and actions.
-  
   Class template is a name for a generic class and is used to pass any data type as a parameter so there is 
   no need to write the same code for different data types.
   
