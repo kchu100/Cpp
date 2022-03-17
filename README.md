@@ -3,6 +3,7 @@ C++ Definitions, Syntax and Concepts
 C++ is a programming language that is a superset of C wherein additional features are made in the C language.
 
 Object Oriented Programming:
+  
   Class is referred to as the designing of the user-defined data type. It reflects the different entities, attributes and actions.
   
   Object is an instance of the class. It can have fields, methods, constructors and related. 
