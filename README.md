@@ -1,9 +1,17 @@
 **C++ Definitions, Syntax and Concepts**
 
-C++ is a programming language that is a superset of C wherein additional features are made in the C language. 
+C++ is a programming language that is a superset of C wherein additional features are made in the C language.
+C++ have features like function overloading, friend functions, inheritance, templates and virtual functions.
+C++ handles exceptions at the language level while C in the if-else style.
+C++ supports procedural and object-oriented programming approaches.
 
 Namespace is used to resolving the name conflict of the identifier which is accomploshed by placing them under various namespaces, which helps
 in the logical division of the different codes.
+
+Function overloading: When more than one function have the same name but with a different type and number of parameters.
+Operator overloading: allows the redefining the way an operator works for user-define types.
+
+Reference variable: variable name and reference variable share the same memory location which helps in updating the original variable.
 
 **Object Oriented Programming**
 
@@ -19,6 +27,9 @@ in the logical division of the different codes.
 **'this' pointer:**
   Is a constant pointer and holds the memory address of the current object. It passes as a hidden argument to all the nonstatic member
   function calls. It is available as a local variable within the body of all nonstatic functions.
+  
+  Virtual Functions:
+    A member function which is declared within a base class and is re-defined (overridden) by a derived class. 
   
 **Access Specifiers:**
 
@@ -44,3 +55,5 @@ in the logical division of the different codes.
   When classes are allowed to access the properties of another class
 
 **Polymorphism:**
+  A call to a member function will cause a different function to be executed depending on the type of object that invokes the function.
+  This function has the same name as in the base and derived class.
