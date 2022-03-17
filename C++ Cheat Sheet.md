@@ -1,5 +1,4 @@
-***C++ Definitions, Syntax and Concepts***
-
+***----------------------------------------C++ Definitions, Syntax and Concepts-------------------------------------------------***  
 C++ is a programming language that is a superset of C wherein additional features are made in the C language.  
 C++ have features like function overloading, friend functions, inheritance, templates and virtual functions.  
 C++ handles exceptions at the language level while C in the if-else style.  
@@ -10,6 +9,31 @@ in the logical division of the different codes.
 **Operator overloading:** Allows the redefining the way an operator works for user-define types.
 **Reference variable:** variable name and reference variable share the same memory location which helps in updating the original variable.  
 ***---------------------------------------------Data Structures---------------------------------------------------------------------***  
+A way of organizing data so that it can be used effectively.  
+
+***Array***  
+A collection of items stored at contiguous memory locations.  
+Stored multiple items of the same type together.  
+
+***Linked List***  
+Is linear, not stored at contiguous memory locations.  
+Items are linked using pointers.  
+Consists of nodes where each node contains a data field and reference to the next node.  
+
+***Stack***  
+Is linear, follows a particular order in which when an item is placed.  
+Referred to as Last In, First Out (LIFO) or First In, Last Out (FILO)
+
+***Queue***  
+Is linear, follows a particular order in which when an item is placed.  
+Referred to as First In, First Out (FIFO)
+
+***Tree***  
+**Binary Tree:**  
+A tree whose elements have at most 2 children.  
+Children are typically named a left and right child.  
+
+**Binary Search Tree:**
 
 ***---------------------------------------------Object Oriented Programming----------------------------------------------------***  
   Class is referred to as the designing of the user-defined data type. 
