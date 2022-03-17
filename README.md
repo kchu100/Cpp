@@ -16,6 +16,10 @@ in the logical division of the different codes.
   Storage class resemble life or the scope of symbols including variables and functions.
   Examples: mutable, auto, static, extern, register
   
+**'this' pointer:**
+  Is a constant pointer and holds the memory address of the current object. It passes as a hidden argument to all the nonstatic member
+  function calls. It is available as a local variable within the body of all nonstatic functions.
+  
 **Access Specifiers:**
 
   Public: members can be accessed throughout the entire program
