@@ -13,6 +13,9 @@ in the logical division of the different codes.
   Class template is a name for a generic class and is used to pass any data type as a parameter so there is 
   no need to write the same code for different data types.
   
+  Storage class resemble life or the scope of symbols including variables and functions.
+  Examples: mutable, auto, static, extern, register
+  
 **Access Specifiers:**
 
   Public: members can be accessed throughout the entire program
