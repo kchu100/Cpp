@@ -9,6 +9,7 @@ Namespace is used to resolving the name conflict of the identifier which is acco
 in the logical division of the different codes.
 
 Function overloading: When more than one function have the same name but with a different type and number of parameters.
+
 Operator overloading: allows the redefining the way an operator works for user-define types.
 
 Reference variable: variable name and reference variable share the same memory location which helps in updating the original variable.
