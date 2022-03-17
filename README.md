@@ -5,7 +5,8 @@ C++ is a programming language that is a superset of C wherein additional feature
 Namespace is used to resolving the name conflict of the identifier which is accomploshed by placing them under various namespaces, which helps
 in the logical division of the different codes.
 
-**Object Oriented Programming:**
+**Object Oriented Programming**
+
   Class is referred to as the designing of the user-defined data type. 
   It reflects the different entities, attributes and actions.
   
