@@ -9,6 +9,9 @@ in the logical division of the different codes.
   Class is referred to as the designing of the user-defined data type. 
   It reflects the different entities, attributes and actions.
   
+  Class template is a name for a generic class and is used to pass any data type as a parameter so there is 
+  no need to write the same code for different data types.
+  
   **Access Specifiers:**
   Public: members can be accessed throughout the entire program
   Private: members that can't be accessed outside the class 
