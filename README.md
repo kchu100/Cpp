@@ -14,8 +14,11 @@ in the logical division of the different codes.
   no need to write the same code for different data types.
   
 **Access Specifiers:**
+
   Public: members can be accessed throughout the entire program
+  
   Private: members that can't be accessed outside the class 
+  
   Protected: members can only be accessed inside its class OR through inheritance 
   
 **Object:**
