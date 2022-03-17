@@ -4,9 +4,12 @@ C++ is a programming language that is a superset of C wherein additional feature
 
 Object Oriented Programming:
   
-  Class is referred to as the designing of the user-defined data type. It reflects the different entities, attributes and actions.
+  Class is referred to as the designing of the user-defined data type. 
+  It reflects the different entities, attributes and actions.
   
-  Object is an instance of the class. It can have fields, methods, constructors and related. 
+  Object
+  
+    An instance of the class. It can have fields, methods, constructors and related. 
     For example, a bike is an object but it has various features such as brakes, color, size and design which are instances of the class.
     
   Encapsulation
