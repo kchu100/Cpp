@@ -3,8 +3,9 @@
 **C++** is a programming language that is a superset of C wherein additional features are made in the C language.
 
 **Object Oriented Programming:**
-  Class is referred to as the designing of the user-defined data type. 
-  It reflects the different entities, attributes and actions.
+    Class is referred to as the designing of the user-defined data type. 
+    It reflects the different entities, attributes and actions.
+  
   
   **Object:**
   An instance of the class. It can have fields, methods, constructors and related. 
@@ -15,4 +16,10 @@
   Sensistive information are hidden from the user and are only accessible through getter and setter functions.
     
  **Abstraction:** 
- Hiding internal implementation and displaying only the required details.
+ Hiding background details/implementations and displaying only the essential details. 
+ Data members and member functions are grouped using access specifiers.
+
+**Inheritance:**
+When classes are allowed to access the properties of another class
+
+**Polymorphism:**
