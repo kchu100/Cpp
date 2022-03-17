@@ -1,8 +1,9 @@
 **C++ Definitions, Syntax and Concepts**
 
 C++ is a programming language that is a superset of C wherein additional features are made in the C language. 
-  Namespace is used to resolving the name conflict of the identifier which is accomploshed by placing them under various namespaces, which helps
-  in the logical division of the different codes.
+
+Namespace is used to resolving the name conflict of the identifier which is accomploshed by placing them under various namespaces, which helps
+in the logical division of the different codes.
 
 **Object Oriented Programming:**
   Class is referred to as the designing of the user-defined data type. 
