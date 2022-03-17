@@ -3,6 +3,12 @@ C++ is a programming language that is a superset of C wherein additional feature
 C++ have features like function overloading, friend functions, inheritance, templates and virtual functions.  
 C++ handles exceptions at the language level while C in the if-else style.  
 C++ supports procedural and object-oriented programming approaches.  
+**Data Types**  
+&emsp; boolean: 1 byte  
+&emsp; char: 1 byte  
+&emsp; int: 2 or 4 bytes  
+&emsp; float: 4 bytes  
+&emsp; double: 8 bytes  
 **Namespace** is used to resolving the name conflict of the identifier which is accomploshed by placing them under various namespaces, which helps
 in the logical division of the different codes.  
 **Function overloading:** When more than one function have the same name but with a different type and number of parameters.  
@@ -28,13 +34,28 @@ Referred to as Last In, First Out (LIFO) or First In, Last Out (FILO)
 Is linear, follows a particular order in which when an item is placed.  
 Referred to as First In, First Out (FIFO)
 
+***Hashing***  
+A technique in mapping keys, values into the hash table by using a hash function.  
+It provides a faster access to elements.  
+Efficiency depends on the hash function.
+
 ***Tree***  
-**Binary Tree:**  
-A tree whose elements have at most 2 children.  
-Children are typically named a left and right child.  
+&emsp; **Binary Tree:**  
+&emsp;&emsp; A tree whose elements have at most 2 children.  
+&emsp;&emsp; Children are typically named a left and right child.  
 
-**Binary Search Tree:**
+&emsp; **Binary Search Tree:**  
+&emsp;&emsp; Is a node-based binary tree.  
+&emsp;&emsp; Left child node is less than parent node.  
+&emsp;&emsp; Right child node is greater then parent node.  
+&emsp;&emsp; Left and right subtree must also be a Binary Search Tree.  
 
+&emsp; **Heap**  
+&emsp;&emsp; A special Tree in which it is a complete binary tree.  
+&emsp;&emsp;&emsp; **Max-Heap**  
+&emsp;&emsp;&emsp;&emsp; Parent node must be the greatest among all other key nodes  
+&emsp;&emsp;&emsp; **Min-Heap**  
+&emsp;&emsp;&emsp;&emsp; Parent node must be the minimum among all other key nodes  
 ***---------------------------------------------Object Oriented Programming----------------------------------------------------***  
   Class is referred to as the designing of the user-defined data type. 
   It reflects the different entities, attributes and actions.  
