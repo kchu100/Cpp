@@ -10,8 +10,10 @@ Object Oriented Programming:
     For example, a bike is an object but it has various features such as brakes, color, size and design which are instances of the class.
     
   Encapsulation
+    
     Process of binding together the data and functions in a class. It is applied to prevent direct access to the data for security reasons. 
     Sensistive information are hidden from the user and are only accessible through getter and setter functions.
     
   Abstraction
+    
     Hiding internal implementation
