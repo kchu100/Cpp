@@ -1,11 +1,17 @@
 **C++ Definitions, Syntax and Concepts**
 
-**C++** is a programming language that is a superset of C wherein additional features are made in the C language.
+C++ is a programming language that is a superset of C wherein additional features are made in the C language. 
+Namespace is used to resolving the name conflict of the identifier which is accomploshed by placing them under various namespaces, which helps
+in the logical division of the different codes.
 
 **Object Oriented Programming:**
-    Class is referred to as the designing of the user-defined data type. 
-    It reflects the different entities, attributes and actions.
+  Class is referred to as the designing of the user-defined data type. 
+  It reflects the different entities, attributes and actions.
   
+  **Access Specifiers:**
+  Public: members can be accessed throughout the entire program
+  Private: members that can't be accessed outside the class 
+  Protected: members can only be accessed inside its class OR through inheritance 
   
   **Object:**
   An instance of the class. It can have fields, methods, constructors and related. 
