@@ -20,6 +20,8 @@ A way of organizing data so that it can be used effectively.
 ***Array***  
 A collection of items stored at contiguous memory locations.  
 Stored multiple items of the same type together.  
+&emsp; **Fixed:** size or length is determined when the array is created  
+&emsp; **Dynamic:** random access, variable-size list that allows elements to be added or removed. It overcomes a limit of static arrays.
 
 ***Linked List***  
 Is linear, not stored at contiguous memory locations.  
