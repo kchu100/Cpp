@@ -68,7 +68,7 @@ Efficiency depends on the hash function.
   Examples: mutable, auto, static, extern, register  
   
 ***'this' pointer:***  
-  Is a constant pointer and holds the memory address of the current object. It passes as a hidden argument to all the nonstatic member
+  Is a constant pointer that holds the memory address of the current object. It passes as a hidden argument to all the nonstatic member
   function calls. It is available as a local variable within the body of all nonstatic functions.
   
   ***Virtual Functions:***  
