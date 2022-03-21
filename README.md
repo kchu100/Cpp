@@ -1,5 +1,5 @@
 # C++
-***----------------------------------------C++ Definitions, Syntax and Concepts-------------------------------------------------***  
+***--------------------------------------------Definitions, Syntax and Concepts-------------------------------------------------***  
 C++ is a programming language that is a superset of C wherein additional features are made in the C language.  
 C++ have features like function overloading, friend functions, inheritance, templates and virtual functions.  
 C++ handles exceptions at the language level while C in the if-else style.  
