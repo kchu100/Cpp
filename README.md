@@ -67,14 +67,16 @@ Efficiency depends on the hash function.
   Storage class resemble life or the scope of symbols including variables and functions.
   Examples: mutable, auto, static, extern, register  
   
-  There are 3 types of constructors:  
+  There are 3 types of constructors (Default, Parameterized, Copy):  
   ***Default:***  
   1. No parameters.  
-  2. Created even if not provided.    
+  2. Created even if not provided.   
+  
   ***Paramterized:***  
   1. Can have X amout of parameters.  
   2. Used to initialize an object.  
   3. Used to overload constructors.  
+  
   ***Copy:***  
   1. Creates an object by initializing it with an object of the same class
   2. Initialize one object from another of the same type.  
