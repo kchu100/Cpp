@@ -67,12 +67,57 @@ Efficiency depends on the hash function.
   Storage class resemble life or the scope of symbols including variables and functions.
   Examples: mutable, auto, static, extern, register  
   
+  There are 3 types of constructors:  
+  ***Default:***  
+  1. No parameters.  
+  2. Created even if not provided.    
+  ***Paramterized:***  
+  1. Can have X amout of parameters.  
+  2. Used to initialize an object.  
+  3. Used to overload constructors.  
+  ***Copy:***  
+  1. Creates an object by initializing it with an object of the same class
+  2. Initialize one object from another of the same type.  
+  3. Copy an object to pass it as an argumet to a function.  
+  4. If it is not defined in a class, the compiler will make one.  
+
+***Destructors:***  
+  1. Is an instance member fuction which is invoked automatically whenever an object is going to be destroyed.  
+  2. This will always be the very last function to be called before an object is destroyed.  
+  3. It uses "delete" to free memory space.  
+  4. No arguments.  
+  
 ***'this' pointer:***  
   Is a constant pointer that holds the memory address of the current object. It passes as a hidden argument to all the nonstatic member
   function calls. It is available as a local variable within the body of all nonstatic functions.
   
   ***Virtual Functions:***  
   A member function which is declared within a base class and is re-defined (overridden) by a derived class. 
+  
+  ***Friend Class and Functions:***  
+  &emsp; **Friend Class:**  
+  &emsp;&emsp; Can access private and protected members of other class.  
+  &emsp;&emsp; Example:  
+  &emsp;&emsp;&emsp; class Node {  
+  &emsp;&emsp;&emsp;&emsp; private:  
+  &emsp;&emsp;&emsp;&emsp;&emsp; int key; Node* next;  
+  &emsp;&emsp;&emsp;&emsp;&emsp; //class LinkedList can access private members of Node  
+  &emsp;&emsp;&emsp;&emsp;&emsp; friend class LinkedList;  
+  
+  &emsp; **Friend Function:**  
+  &emsp;&emsp; Can be given a special grant to access private and protected members.  
+  &emsp;&emsp; Can be a member of another class or a global function.  
+  &emsp;&emsp; Example:  
+  &emsp;&emsp;&emsp; class Node {  
+  &emsp;&emsp;&emsp;&emsp; private:  
+  &emsp;&emsp;&emsp;&emsp;&emsp; int key; Node* next;  
+  &emsp;&emsp;&emsp;&emsp;&emsp; //only search function of LinkedList can access private members  
+  &emsp;&emsp;&emsp;&emsp;&emsp; friend int LinkedList::search();  
+  
+  **Key points**
+  1. Friends should only be used for limited purposes as using too many defeats the purpose of encapsulation.  
+  2. Frindship is not mutual. If clas A is a friend of B, then B doesn't automatically become a friend of A.  
+  3. Friendship is not inherited.  
   
 ***Access Specifiers:***  
   Public: members can be accessed throughout the entire program  
