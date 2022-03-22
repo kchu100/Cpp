@@ -72,7 +72,7 @@ Efficiency depends on the hash function.
   1. No parameters.  
   2. Created even if not provided.   
   
-  ***Paramterized:***  
+  ***Parameterized:***  
   1. Can have X amout of parameters.  
   2. Used to initialize an object.  
   3. Used to overload constructors.  
