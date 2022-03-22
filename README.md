@@ -144,3 +144,17 @@ Efficiency depends on the hash function.
 ***Polymorphism:***  
   A call to a member function will cause a different function to be executed depending on the type of object that invokes the function.
   This function has the same name as in the base and derived class.  
+  
+***Exceptions:***  
+  Different errors can occur like coding error by the programmer, wrong input or any unforseeable things.  
+  Exception handling consists of three keywords: **try, catch, throw**.  
+  **Try** and **Catch** are used in pairs.  
+  
+  &emsp; The **try** statement allows you to define a block of code to be tested for errors while it is being executed.  
+  &emsp; The **catch** statement allows you to define a block of code to be executed, if an error occurs in the try block.  
+  &emsp;&emsp; - can take a parameter or ". . ."  
+  &emsp; The **throw** keyword throws an exception when a problem is detected, which lets us create a custom error.   
+  
+  
+  
+  
