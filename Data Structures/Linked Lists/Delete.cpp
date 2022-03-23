@@ -1,3 +1,4 @@
+//Delete a node
 SinglyLinkedListNode* deleteNode(SinglyLinkedListNode* head, int position) 
 {
     SinglyLinkedListNode *curr, *del;
