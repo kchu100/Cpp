@@ -10,7 +10,7 @@ C++ supports procedural and object-oriented programming approaches.
 &emsp; int: 2 or 4 bytes  
 &emsp; float: 4 bytes  
 &emsp; double: 8 bytes  
-**Namespace** is used to resolving the name conflict of the identifier which is accomploshed by placing them under various namespaces, which helps
+**Namespace** is used to resolving the name conflict of the identifier which is accomplished by placing them under various namespaces, which helps
 in the logical division of the different codes.  
 **Function overloading:** When more than one function have the same name but with a different type and number of parameters.  
 **Operator overloading:** Allows the redefining the way an operator works for user-define types.
