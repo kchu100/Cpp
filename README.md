@@ -60,10 +60,17 @@ Efficiency depends on the hash function.
 &emsp;&emsp;&emsp; **Min-Heap**  
 &emsp;&emsp;&emsp;&emsp; Parent node must be the minimum among all other key nodes  
 ***---------------------------------------------Object Oriented Programming----------------------------------------------------***  
-  Class is referred to as the designing of the user-defined data type. 
+  Structures (struct) are a way to group several related variables into one place.  
+  Can contain many different data types.  
+  Is public by default.  
+  
+  Class is referred to as the designing of the user-defined data type.   
   It reflects the different entities, attributes and actions.  
+  Is private by default.  
+  
   Class template is a name for a generic class and is used to pass any data type as a parameter so there is 
   no need to write the same code for different data types.  
+  
   Storage class resemble life or the scope of symbols including variables and functions.
   Examples: mutable, auto, static, extern, register  
   
