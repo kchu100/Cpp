@@ -6,8 +6,9 @@ N = 35
 */
 int computeSeries(int n)
 {
-    int result = 0, divisor = 1;
+    int divisor = 1;
     /*traditional loop
+    int result = 0;
     while(divisor < n)
     {
         result += n/divisor;
