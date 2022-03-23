@@ -18,9 +18,8 @@ int computeSeries(int n)
     */
     
     /*using Recursion
-    divisor *= 2;
     if(divisor > n)
         return n;
-    return n + computeSeries(n/divisor);
+    return n + computeSeries(n / (divisor * 2));
     */
 }
