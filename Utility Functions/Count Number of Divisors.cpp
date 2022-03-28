@@ -1,3 +1,4 @@
+//This take O(sqrt(n)) time
 int countDivisors(int n)
 {
   int count = 0;
