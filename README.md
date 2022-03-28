@@ -11,7 +11,14 @@ C++ supports procedural and object-oriented programming approaches.
 &emsp; float: 4 bytes  
 &emsp; double: 8 bytes  
 **Functions** is a block of code which only runs when it is called. They are used to perform certain actions, and they are important 
-for reusing code: Define the code once, and use it many times.  
+for reusing code: Define the code once, and use it many times.   
+***Loops***  
+&emsp;&emsp; **While:**  
+&emsp;&emsp;&emsp; executes a block of code as long a specified condition is true  
+&emsp;&emsp; **Do/While:**  
+&emsp;&emsp;&emsp; will always execute a block of code once then keeps looping as long a specified condition is true  
+&emsp;&emsp; **For:**  
+&emsp;&emsp;&emsp; will execute a block of code the amount of times specified  
 **Namespace** is used to resolving the name conflict of the identifier which is accomplished by placing them under various namespaces, which helps
 in the logical division of the different codes.  
 **Function overloading:** When more than one function have the same name but with a different type and number of parameters.  
