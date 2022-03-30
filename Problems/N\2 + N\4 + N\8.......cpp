@@ -6,9 +6,8 @@ N = 35
 */
 int computeSeries(int n)
 {
-    int divisor = 1;
     /*traditional loop
-    int result = 0;
+    int result = 0, divisor = 1;
     while(divisor < n)
     {
         result += n/divisor;
@@ -17,9 +16,9 @@ int computeSeries(int n)
     return result;
     */
     
-    /*using Recursion
+    //using Recursion
     if(n / 2 == 0)
         return n;
     return n + computeSeries(n / 2);
-    */
+    
 }
