@@ -18,7 +18,7 @@ string emailDomain(string address)
     {
         if(address[i] == '@' && address[i + 1] != '.')
         {
-        while(++i < address.length() && (address[i] != 'm' || address[i + 1] != '@'))
+            while(++i < address.length() && (address[i] != 'm' || address[i + 1] != '@'))
             {
                 domain += address[i];
             }
