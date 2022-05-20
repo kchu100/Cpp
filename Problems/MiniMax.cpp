@@ -4,7 +4,7 @@ Then print the respective minimum and maximum values as a single line of two spa
 */
 void miniMaxSum(vector<int> arr) 
 {
-    int min = arr[0], max = arr[0], sum = 0;
+    long min = arr[0], max = arr[0], sum = 0;
     for(int i = 0; i < arr.size(); i++)
     {
         sum += arr[i];
