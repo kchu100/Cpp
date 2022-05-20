@@ -8,6 +8,7 @@ C++ supports procedural and object-oriented programming approaches.
 &emsp; boolean: 1 byte  
 &emsp; char: 1 byte  
 &emsp; int: 2 or 4 bytes  
+&emsp; long: 8 bytes  
 &emsp; float: 4 bytes  
 &emsp; double: 8 bytes  
 **Functions** is a block of code which only runs when it is called. They are used to perform certain actions, and they are important 
