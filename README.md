@@ -4,6 +4,7 @@ C++ is a programming language that is a superset of C wherein additional feature
 C++ have features like function overloading, friend functions, inheritance, templates and virtual functions.  
 C++ handles exceptions at the language level while C in the if-else style.  
 C++ supports procedural and object-oriented programming approaches.  
+
 **Data Types**  
 &emsp; boolean: 1 byte  
 &emsp; char: 1 byte  
@@ -13,6 +14,7 @@ C++ supports procedural and object-oriented programming approaches.
 &emsp; double: 8 bytes  
 **Functions** is a block of code which only runs when it is called. They are used to perform certain actions, and they are important 
 for reusing code: Define the code once, and use it many times.   
+
 ***Loops***  
 &emsp;&emsp; **While:**  
 &emsp;&emsp;&emsp; executes a block of code as long a specified condition is true  
@@ -20,6 +22,16 @@ for reusing code: Define the code once, and use it many times.
 &emsp;&emsp;&emsp; will always execute a block of code once then keeps looping as long a specified condition is true  
 &emsp;&emsp; **For:**  
 &emsp;&emsp;&emsp; will execute a block of code the amount of times specified  
+
+***Pointers*** is a variable that stores the memory address as its value.  
+It points to a datatype of the **same** type and is created with the * operator.  
+Get the value of the variable by using the * operator (dereference operator).  
+Syntax:  
+&emsp;&emsp; string food = "Pizza";  
+&emsp;&emsp; string *ptr = &food; //Pointer declaration  
+&emsp;&emsp; cout << ptr; //Reference: output the memory address of food with the pointer which is (0x6dfed4)  
+&emsp;&emsp; cout << *ptr; //Dereference: output the value of the food with the pointer which is (Pizza)  
+
 **Namespace** is used to resolving the name conflict of the identifier which is accomplished by placing them under various namespaces, which helps
 in the logical division of the different codes.  
 **Function overloading:** When more than one function have the same name but with a different type and number of parameters.  
