@@ -26,6 +26,8 @@ for reusing code: Define the code once, and use it many times.
 ***Pointers*** is a variable that stores the memory address as its value.  
 It points to a datatype of the **same** type and is created with the * operator.  
 Get the value of the variable by using the * operator (dereference operator).  
+When used in declaration (string *ptr), it creates a pointer variable.  
+When not used in declaration, it acts as a dereference operator.  
 Syntax:  
 &emsp;&emsp; string food = "Pizza";  
 &emsp;&emsp; string *ptr = &food; //Pointer declaration  
