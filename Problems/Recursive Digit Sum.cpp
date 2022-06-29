@@ -6,6 +6,14 @@ Otherwise, the super digit of  is equal to the super digit of the sum of the dig
 Calculate the sum of digits of n * k initially
 */
   
+int sumDigits(string x)
+{
+    int sum = 0;
+    for(int i = 0; i < x.length(); i++)
+        sum += (int)x[i] - 48;
+    return sum;
+}
+
 int superDigit(int n, int k) 
 {
     int x = n, sum = 0;
