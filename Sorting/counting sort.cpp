@@ -6,7 +6,7 @@ void countsort(int A[], int n)
 	//count how many times each element appears in array
 	for(int i = 0; i < n; i++)
 	{
-		freq[A[i]] += 1;
+		freq[A[i]]++;
 		
 		if(A[i] > max)
 			max = A[i];
@@ -14,7 +14,7 @@ void countsort(int A[], int n)
 	
 	//add current element to the next and store answer to the next
 	for(int i = 0; i <= max; i++)
-        freq[i + 1] = freq[i] + freq[i + 1];
+        	freq[i + 1] += freq[i];
 	
 	//sorting occur
 	int result[n];
