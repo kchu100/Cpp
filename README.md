@@ -34,6 +34,30 @@ Syntax:
 &emsp;&emsp; cout << ptr; //Reference: output the memory address of food with the pointer which is (0x6dfed4)  
 &emsp;&emsp; cout << *ptr; //Dereference: output the value of the food with the pointer which is (Pizza)  
 
+***Regular Expressions***  
+Examples:  
+&emsp; 1. Specify a range of lowercase letters from a to z:  
+&emsp;&emsp; (a-z) Matches exactly one lowercase letter  
+&emsp; 2. Specifies the range containing one single uppercase character, one lowercase character and a digit from 0 to 9  
+&emsp;&emsp; (A-Za-z0-9)  
+&emsp; 3. Specifies an opening bracket and a digit in the range 0 to 9 as a regex  
+&emsp;&emsp; (\\[0-9)  
+&emsp; 4. Matches the strings like a, aaa, abcd, softwaretestinghelp, etc.   
+&emsp;&emsp; (a-z)+ can never match a blank string   a-z]* can match a blank string  
+&emsp; 5. Expression will match Xyz, XyzXyz, and XyzXyzXyz, etc  
+&emsp;&emsp; (Xyz)+  
+&emsp; 6. Matches the specify string regardless of what's in front  
+&emsp;&emsp; (.\*)(string)  
+&emsp; 6. Matches the specify string regardless of what's in back  
+&emsp;&emsp; (string)(.\*)  
+
+Syntax:  
+#include<regexp>  
+&emsp;&emsp; string myString = "Favorite Game is Destiny 2";  
+&emsp;&emsp; regexp str_exp = regexp("(.\*)(Destiny)(.\*)");  or regexp str_exp(...);
+&emsp;&emsp; if(regex_match(str, str_exp));  
+&emsp;&emsp;&emsp; cout << "Matched.";
+
 **Namespace** is used to resolving the name conflict of the identifier which is accomplished by placing them under various namespaces, which helps
 in the logical division of the different codes.  
 **Function overloading:** When more than one function have the same name but with a different type and number of parameters.  
