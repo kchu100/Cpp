@@ -52,7 +52,7 @@ Examples:
 &emsp;&emsp; (string)(.\*)  
 
 Syntax:  
-#include<regexp>  
+#include\<regexp\>  
 &emsp;&emsp; string myString = "Favorite Game is Destiny 2";  
 &emsp;&emsp; regexp str_exp = regexp("(.\*)(Destiny)(.\*)");  or regexp str_exp(...);
 &emsp;&emsp; if(regex_match(str, str_exp));  
