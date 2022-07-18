@@ -54,8 +54,8 @@ Examples:
 Syntax:  
 #include\<regexp\>  
 &emsp;&emsp; string myString = "Favorite Game is Destiny 2";  
-&emsp;&emsp; regexp str_exp = regexp("(.\*)(Destiny)(.\*)");  or regexp str_exp(...);
-&emsp;&emsp; if(regex_match(str, str_exp));  
+&emsp;&emsp; regexp str_exp = regexp("(.\*)(Destiny)(.\*)");  or regexp str_exp(...);  
+&emsp;&emsp; if(regex_match(myString, str_exp));  
 &emsp;&emsp;&emsp; cout << "Matched.";
 
 **Namespace** is used to resolving the name conflict of the identifier which is accomplished by placing them under various namespaces, which helps
