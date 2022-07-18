@@ -35,6 +35,9 @@ Syntax:
 &emsp;&emsp; cout << *ptr; //Dereference: output the value of the food with the pointer which is (Pizza)  
 
 ***Regular Expressions***  
+**regex_match(\<string\>, \<regex\>):** Used to match the given pattern. Returns true if the given expression matches the string. Otherwise, return false.  
+**regex_search():** Used to search for a pattern in the string that matches the regular expression.  
+
 Examples:  
 &emsp; 1. Specify a range of lowercase letters from a to z:  
 &emsp;&emsp; (a-z) Matches exactly one lowercase letter  
