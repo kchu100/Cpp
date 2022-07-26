@@ -8,7 +8,7 @@ C++ supports procedural and object-oriented programming approaches.
 **Data Types**  
 &emsp; boolean: 1 byte  
 &emsp; char: 1 byte  
-&emsp; int: 2 or 4 bytes  
+&emsp; int: 2 or 4 bytes, range of values that can be stored: -2,147,483,648 to 2,147,483,647  
 &emsp; long: 8 bytes  
 &emsp; float: 4 bytes  
 &emsp; double: 8 bytes  
