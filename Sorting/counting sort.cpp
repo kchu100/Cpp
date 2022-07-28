@@ -1,4 +1,6 @@
-//Runtime: O(nlog(n))
+//Runtime: O(n+k)
+//n = number of elements, k = range of the elements
+//it is most efficient if k < n
 void countsort(int A[], int n)
 {
 	int freq[10000000], max = 0;
